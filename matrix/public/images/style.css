@@ -1,0 +1,603 @@
+﻿    @charset "utf-8";
+/* CSS Document */  
+
+ @font-face {
+  font-family: 'metanormal';
+  src: url("fonts/metaot-normal-webfont.eot");
+  src: url("fonts/metaot-normal-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/metaot-normal-webfont.woff") format("woff"), url("fonts/metaot-normal-webfont.ttf") format("truetype"), url("fonts/metaot-normal-webfont.svg#metaotnormal") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'metanormalitalic';
+  src: url("fonts/metaot-normalitalic-webfont.eot");
+  src: url("fonts/metaot-normalitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/metaot-normalitalic-webfont.woff") format("woff"), url("fonts/metaot-normalitalic-webfont.ttf") format("truetype"), url("fonts/metaot-normalitalic-webfont.svg#metaotnormalitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'metamedium';
+  src: url("fonts/metaot-medium-webfont.eot");
+  src: url("fonts/metaot-medium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/metaot-medium-webfont.woff") format("woff"), url("fonts/metaot-medium-webfont.ttf") format("truetype"), url("fonts/metaot-medium-webfont.svg#metaotmedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'metaheadlineregular';
+  src: url("fonts/metaheadlineot-regular-webfont.eot");
+  src: url("fonts/metaheadlineot-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/metaheadlineot-regular-webfont.woff") format("woff"), url("fonts/metaheadlineot-regular-webfont.ttf") format("truetype"), url("fonts/metaheadlineot-regular-webfont.svg#metaheadlineot-regularregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'metaheadlinebold';
+  src: url("fonts/metaheadlineot-bold-webfont.eot");
+  src: url("fonts/metaheadlineot-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/metaheadlineot-bold-webfont.woff") format("woff"), url("fonts/metaheadlineot-bold-webfont.ttf") format("truetype"), url("fonts/metaheadlineot-bold-webfont.svg#metaheadlineotbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'humnst777_cn_btregular';
+    src: url('font/humnst777-cn-bt-1361868845-webfont.eot');
+    src: url('font/humnst777-cn-bt-1361868845-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/humnst777-cn-bt-1361868845-webfont.woff') format('woff'),
+         url('font/humnst777-cn-bt-1361868845-webfont.ttf') format('truetype'),
+         url('font/humnst777-cn-bt-1361868845-webfont.svg#humnst777_cn_btregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'museo100';
+    src: url('fonts/museo100-regular-webfont.eot');src: url('fonts/museo100-regular-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/museo100-regular-webfont.woff') format('woff'),url('fonts/museo100-regular-webfont.ttf') format('truetype'),url('fonts/museo100-regular-webfont.svg#museo100') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo300';
+    src: url('fonts/museo300-regular-webfont.eot');src: url('fonts/museo300-regular-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/museo300-regular-webfont.woff') format('woff'),url('fonts/museo300-regular-webfont.ttf') format('truetype'),url('fonts/museo300-regular-webfont.svg#museo300') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo500';
+    src: url('fonts/museo500-regular-webfont.eot');src: url('fonts/museo500-regular-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/museo500-regular-webfont.woff') format('woff'),url('fonts/museo500-regular-webfont.ttf') format('truetype'),url('fonts/museo500-regular-webfont.svg#museo500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo700';
+    src: url('fonts/museo700-regular-webfont.eot');src: url('fonts/museo700-regular-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/museo700-regular-webfont.woff') format('woff'),url('fonts/museo700-regular-webfont.ttf') format('truetype'),url('fonts/museo700-regular-webfont.svg#museo700') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo900';
+    src: url('fonts/museo900-regular-webfont.eot');src: url('fonts/museo900-regular-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/museo900-regular-webfont.woff') format('woff'),url('fonts/museo900-regular-webfont.ttf') format('truetype'),url('fonts/museo900-regular-webfont.svg#museo900') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+/* ----New Styles---- */
+
+html{-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;height: 100%;height: 100%;overflow-x:hidden;overflow-y:scroll;}
+
+body{margin: 0;padding:0; font-size:100%;font: 400 14px/1.6 "Istok Web", "Helvetica Neue", helvetica, arial, sans-serif;}
+
+body, button, input, select, textarea{font-family: Arial, Helvetica, sans-serif;color:#000000;}
+h1{font-weight:normal;color:#FF0099;margin:0px;padding:0;} 
+div, h2, h3, h4, h5, h6{padding: 0px;margin: 0px;font-weight:normal;color:#3e1a4f;}
+ p, span{ color:#333;}
+/* 
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate
+ * Also: hot pink! (or customize the background color to match your design)
+ */
+
+::-moz-selection{background: #000000;color: #ffffff;text-shadow: none;}
+::selection{background: #000000;color: #ffffff;text-shadow: none;}
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+a{color: #8e2161;text-decoration: none;transition: color 300ms ease-in-out 0s;}
+a:hover{text-decoration: none;}
+a:focus{outline: none;}
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+a:hover, a:active{outline: 0;}
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+
+ul, ol{margin:0;padding-left: 0;list-style-type:none;}
+li ul, li ol{margin: 0;padding:0;}
+
+/* =======bd content
+   ========================================================================== */
+
+/*
+ * 1. Improve image quality when scaled in IE7: h5bp.com/d
+ * 2. Remove the gap between images and borders on image containers: h5bp.com/e 
+ */
+
+img{border: 0;-ms-interpolation-mode: bicubic;vertical-align: middle;}
+
+/*
+ * Correct overflow not hidden in IE9 
+ */
+
+svg:not(:root){overflow: hidden;}
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+
+table{border-collapse: collapse;border-spacing: 0;}
+td{	vertical-align: top;}
+
+/* ==== primary styles =====================================================
+   Author: Abbas Tahir
+   ========================================================================== */
+
+/* For image replacement */
+.ir{display: block;border: 0;text-indent: -999em;overflow: hidden;background-color: transparent;background-repeat: no-repeat;text-align: left;direction: ltr;}
+.ir a{display: block;height: 100%;}
+.hidden{display: none !important;visibility: hidden;}
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{zoom: 1;} 
+.cnQIPcfloBYMaq{display:none;}
+ 
+.img{width:100%;float:left;height:auto;}
+
+.header-img{width:100%;float:left;display:none;}
+
+#outer-wrapper{width:100%;min-width:320px;float:left; position: relative;z-index:9999;}  
+
+.flexslider{margin:0 0 20px 0;padding:0 0 4% 0;width:100%;float:left;position:absolute;}
+.flexslider .slides > li {display: none; margin: 0; padding: 0;float:left;width:100%;}     
+ul.slides {list-style:none; margin:0;padding:0;width:100%;}
+.flexslider .slides > li img{width:100%;float:left; display:block;max-height:500px;} 
+/* Header srart */
+header{width:100%;float:left;background:#666;}
+header.bg-none{background:none;position:relative;}
+header .header{width:100%;max-width:970px;margin:0 auto;position:relative;z-index:9999;}
+header .header .logo{width:37%;float:left;margin:45px 0 0 10px;}
+header .header .logo img{width:105%;float:left;}
+
+.right-menu{width:380px;float:right;margin:8px 15px 0 0;}
+.main-nav{width:360px;float:left;}
+.main-nav .nav{width:auto;float:left;padding:0;margin:6px 0 0 0;}
+.main-nav .nav ul{width:auto;float:left;list-style-type:none;padding:0;margin:0;}
+.main-nav .nav ul li{width:auto;float:left;margin:0 18px 0 0;font-size:14px;}
+.main-nav .nav ul li a{color:#fff;font-family: 'museo300';  }
+.main-nav .nav ul li a.active, .main-nav .nav ul li a:hover{color:#9F4EDB;background:none;}
+ 
+.btn-say-hello{width:100px;float:right;background:url(../images/bg.jpg) repeat-x;height:27px;font-family:Calibri;font-size:16px;color:#ECE7F5;text-align:center;
+padding:4px 0 0 0; border-radius:7px;margin-right:-20px;}
+.btn-say-hello:hover{color:#ECE7F5;}
+ 
+.info-cr{width:auto;clear:both;text-align:center;padding:44px 0 0 0;}
+.info-cr span{float:right;font-family: 'museo300';font-size:16px;color:#ECE7F5;text-align:center;padding:0 20px 0 0;}
+.info-cr a{float:right;font-family: 'museo300';font-size:16px;color:#ECE7F5;text-align:center;padding:0 0 0 0;}
+ 
+header nav{width:100%;float:left;background:#eac100;position:relative;margin:10px 0 0 0;}
+header nav ul{width:100%; max-width:950px;margin:0 auto;position:relative;list-style-type:none;padding:0;}
+header nav ul li{width:auto;float:left;border-right:solid 1px #FFDA28;padding:0;position:relative;margin:0px;}
+header nav ul li:first-child{border-left:solid 1px #FFDA28;}
+header nav ul li a{width:auto;font-family:'museo300';color:#fff;display:block;font-size:19px;padding:20px 0  20px 0;text-align:center;transition:background-color 300ms ease-in-out 0s;}
+header nav ul li a:hover, header nav ul li a.active{background:#804000;color:#fff;}
+header nav ul li ul{width:210px;position:absolute;list-style-type:none; background:red;z-index:999;}
+header nav ul li ul li{width:100%;float:left;border-right:0;border-bottom:solid 1px #8E4700;}
+header nav ul li ul li:first-child{border-left:0;border-bottom:solid 1px #8E4700;}
+header nav ul li ul li:last-child{border-bottom:0;}
+header nav ul li ul li a{background:#804000;padding: 6px 2% 6px 5%;text-align:left;font-size:14px;}
+header nav ul li ul li a:hover, header nav ul li ul li a.activ{background:#333;}
+
+header nav ul li.home{width: 12.63%;}
+header nav ul li.websites{width: 16.84%;}
+header nav ul li.mobile-apps{width: 22.05%;}
+header nav ul li.seo{width: 11.58%;}
+header nav ul li.branding{width: 16.84%;}
+header nav ul li.our-work{width: 18.85%;}
+/* Header end */
+
+.bread-crumb{width:96%;float:left;background:#505050;padding:6px 2% 6px 2%;position:relative;}
+.bread-crumb ul{width:100%;max-width:950px;margin:0 auto;position:relative;list-style-type:none;}
+.bread-crumb ul li{width:auto;float:left;font-family: 'museo300';font-size:14px;color:#fff;}
+.bread-crumb ul li a{width:auto;float:left;color:#fff;}
+
+section{width:100%;float:left;background:#E0DFDA;padding:0 0 30px 0;}
+/* Home */
+section .main-heading{width:96%;float:left;background:url(../images/heading-bg.png) repeat;padding:20px 2% 18px 2%;position:relative;margin:3% 0 0 0;}
+section .main-heading .inner{width:100%;max-width:950px; margin:0 auto;position:relative;}
+section .main-heading .inner h1{width:100%;float:left;font-family: 'museo300';font-size:70px;color:#fff;opacity:initial;padding:0;margin:0;
+                                line-height:70px;
+}
+section .main-heading .inner h1 small{width:100%;float:left; font-size:65px;letter-spacing:2px;padding:0;margin:0;} 
+
+section .home-grids{width:100%; max-width:970px;margin:0 auto;position:relative;}
+section .home-grids ul{width:97.6%;float:left;list-style-type:none;padding:0 1.2% 0 1.2%;margin:8% 0 0 0;}
+section .home-grids ul li{width:15.37%;float:left;margin:0 1.5% 0 0;position:relative;}
+section .home-grids ul li:last-child{margin:0;} 
+section .home-grids ul li a{width:100%;color:#fff;float:left;font-size:18px;line-height:17px;}
+section .home-grids ul li a span{width:90%;color:#fff;position:absolute;top:10px;left:10px;font-family: 'museo300'; }
+section .home-grids ul li a img{float:left; width:100%;} 
+
+section .guide-inner{width:100%;max-width:950px; position:relative;margin:0 auto;} 
+section .guide-inner .inner{width:49.09%;float:left;background:#D0C6D9;height:132px;margin:60px 1.82% 0 0 ;padding:0;}
+section .guide-inner .inner:last-child{margin:60px 0 0 0;}
+section .guide-inner .inner div.left{width:44.10%;height:auto;float:right;margin:-10px 2% 0 0;}
+section .guide-inner .inner div.left img{width:100%;height:auto;}
+section .guide-inner .inner div.right{width:43%;float:left;padding:0 0 0 3%}
+section .guide-inner .inner div.right span{width:100%;float:left;font-family: 'museo300';font-size:20px;color:#3F5159;padding: 15px 0 0 0;line-height:23px;} 
+section .guide-inner .inner div.right a{width:100px;height:auto;font-family: 'museo300';font-size:14px;color:#fff;float:left;
+                                                       background:url(../images/bg.jpg) repeat-x;text-align:center;padding:6px 0 5px 0;border-radius: 5px;}
+section #guide-section .guide-inner .inner div.right a:hover{background-color:#8499A4;}
+
+section #grid-box{width:100%; max-width:970px;margin:0 auto;position:relative;}
+section #grid-box .grid-box{width:97.4%;float:left;padding:50px 1.3% 0 1.3%; }
+section #grid-box .grid-box h2{width:100%;float:left;font-family: 'museo500';font-size:33px;color:#602A8B;padding:0;line-height:30px;}
+section #grid-box .grid-box h2 span{float:left;padding:2px 3px;color:#602A8B;}
+section #grid-box .grid-box .grid-block{width:31%;float:left;margin:20px 3% 0 0;}
+section #grid-box .grid-box .grid-block.last{margin-right:0;}
+section #grid-box .grid-box .grid-block .img{float:left;width:60px;margin:5px 0 0 0;border-radius:20%;}
+section #grid-box .grid-box .grid-info{width:77%;float:right;}
+section #grid-box .grid-box .grid-info h3{width:100%;float:left;font-family: 'museo500';font-size:20px;color:#fff;margin:0;padding:0;line-height:23px;}
+section #grid-box .grid-box .grid-info h3 span{color:#fff;background:#eac100;padding:2px 3px;color:#fff;}
+section #grid-box .grid-box .grid-info p{width:100%;float:left;font-family: 'museo300';font-size:15px;color:#3F5159;line-height:18px;margin:0;padding:10px 0 0 0;}
+
+
+/* About us */
+section .content{width:97.6%;max-width:950px;margin:30px auto;position:relative;padding:0 1.2% 0 1.2%}
+section .content .left-menu{width:24.21%;float:left;}
+section .content .left-menu ul{width:100%;float:left;list-style-type:none;padding:0;margin:0;}
+section .content .left-menu ul li{width:100%;float:left;border-bottom:solid 1px #fff;}
+section .content .left-menu ul li a{width:92%;float:left;font-family: 'museo300';font-size:18px;color:#fff;background:#505050;padding:14px 0 14px 5%;border-left:solid 7px #333;
+                                    line-height:22px;}
+section .content .left-menu ul li a:hover, section .content .left-menu ul li a.active{background:#333;border-left:solid 7px #804000;}
+
+section .column-right{width:74.5%;float:right;margin:-20px 0 0 0;}
+section .column-right.consultancy{width:98%;float:left;padding-right:2%;}
+section .column-right.consultancy h1{width:100%;padding-left:0;}
+section .column-right h1{width:98%;float:left;font-family: 'museo300';font-size:50px;color:#333;padding:10px 0 0 2%;margin:0;line-height:55px;}
+section .column-right .right-info{width:95%;float:left;padding:15px 2.5% 0 2.5%; background:#fff;margin:20px 0 0 0 }
+section .column-right .right-info h3{width:100%;float:left;padding:0;margin:0;color:#3e1a4f;font-size:25px; line-height:30px;font-family: 'museo300';margin:0 0 16px 0;}
+section .column-right .right-info h4{width:100%;float:left;padding:0;margin:0;color:#3e1a4f;font-size:20px; line-height:21px;font-family: 'museo300';margin:0 0 16px 0;}
+section .column-right .right-info p{width:100%;float:left;padding:0;margin:0;color:#333;line-height:22px;font-family: 'museo300';margin:0 0 20px 0;font-size:16px;}
+
+section .column-right .right-info ul{width:96%;float:left;list-style-type:disc;padding:5px 0 17px 4%;}
+section .column-right .right-info ul li{width:100%;float:left;margin:0 0 5px 0;font-family: 'museo300';color:#333;}
+section .column-right .right-info ul li a{width:auto;float:left;font-family: 'museo300';}
+
+section .column-right .right-info ol{width:93%;float:left;list-style-type:decimal;padding:5px 3% 17px 4%;}
+section .column-right .right-info ol li{width:100%;float:left;margin:0 0 5px 0;font-family: 'museo300';color:#333;}
+section .column-right .right-info ol li a{width:auto;float:left;font-family: 'museo300';}
+
+section .column-right .right-info ol .lower-alpha{width:97.5%;float:left;list-style-type:lower-alpha;padding-left:2.5%;}
+section .column-right .right-info ol .lower-alpha li{width:100%;float:left;margin:0 0 5px 0;font-family: 'museo300';color:#333;}
+section .column-right .right-info ol .lower-alpha li a{width:auto;float:left;font-family: 'museo300';}
+
+section .column-right .right-info ol .lower-roman{width:97.5%;float:left;list-style-type:lower-roman;padding-left:2.5%;}
+section .column-right .right-info ol .lower-roman li{width:100%;float:left;margin:0 0 5px 0;font-family: 'museo300';color:#333;}
+section .column-right .right-info ol .lower-roman li a{width:auto;float:left;font-family: 'museo300';}
+
+section .column-right .right-info .img{width:100%;margin-bottom:30px;}
+
+/* clients page */
+.clients{width:100%;float:left;}
+.clients h1{width:98%;float:left;font-family: 'museo300';font-size:50px;color:#fff;padding:10px 0 35px 2%;margin:0;line-height:45px;}
+.clients ul{float:left; width:97%;list-style-type:none;padding:0 1.5% 0 1.5%;}
+.clients ul li{float:left; width:22.2%; margin: 0 3.68% 22px 0;border-bottom: solid 2px #8A42C1;} 
+.clients ul li:nth-child(4n+4){margin: 0 0 22px 0;} 
+.clients ul li:hover{margin: 2px -1px 3.68% 22px 0; background-color: #231437;box-shadow:0px 0px 20px #8A42C1;border-bottom: solid 2px #fff;} 
+.clients ul li img{width:100%;height:auto;position: relative;}
+ 
+/* our work page */
+.our-work {width:100%;float:left;} 
+.our-work h1{width:98%;float:left;font-family:'museo300';font-size:50px;color:#333;padding:10px 0 35px 2%;margin:0;line-height:45px;}
+.our-work ul{width:97%;float:left;list-style:none;padding:0;margin:0 1.5% 30px 1.5%;}
+.our-work ul li {width:31.58%;height:auto;float:left;padding:0;margin:22px 2.32% 0 0;position:relative;overflow:hidden;} 
+.our-work ul li:nth-child(3n+3){margin:22px 0 0 0;} 
+.our-work ul li img {width:100%;height:auto;float: left;padding: 0;margin: 0;} 
+.our-work ul li .hover{background:#eac100;width:100%;height:100%;float:left;position:absolute;bottom:0;right:0;padding:0;margin:0;filter:alpha(opacity=90);
+                    -moz-opacity:0.9;-khtml-opacity:0.9;opacity:0.9;display:none;}
+.our-work ul li div.details div.hover {padding:0;}
+
+.our-work ul li .hover h3{width:97%;float:left;font-family:'museo300';font-size:40px;color:#fff;padding:15px 0 0 3%;margin:0;line-height:40px}
+.our-work ul li .hover a{width:auto;float:left;font-family:'museo300';font-size:16px;color:#fff;padding:0 0 0 3%;margin:0;position:absolute;bottom:10px;left:0;}
+
+/* meet us */
+section .content .meet-us{width:100%;float:left;}
+section .content .form {width:65%;float:left;}
+section .content .form .form-fields{width:100%;float:left;}
+section .content .form .form-fields li{width:100%;float:left;margin:0 0 15px 0}
+section .content .form .form-fields li h3{width:30%;float:left;font-family:'museo300';font-size:16px;color:#333;text-align:right;margin-top:10px;}
+section .content .form .form-fields li input[type="text"]{width:63%;float:right;font-family:'museo300';font-size:14px;color:#333;padding:5px 1% 5px 1%; height:25px;border:solid 1px #999;}
+section .content .form .form-fields li textarea{width:100%;float:right;font-family:'museo300';font-size:14px;color:#333;border:solid 1px #999;padding:5px 1% 5px 1%;resize:none;}
+
+.btn-send{width:80px;float:left;background:url(../images/bg.jpg) repeat-x;height:27px;font-family:Calibri;font-size:16px;color:#ECE7F5;text-align:center;margin:15px 0 0 -9px;
+         border-radius:5px; }
+
+section .content .right-column{width:27%;float:right;}
+section .content .right-column .address{width:100%;float:left;}
+section .content .right-column .address h3{width:100%;float:left;font-family: 'museo300';font-size:23px;color:#333;margin-bottom:-5px;}
+section .content .right-column .address p{width:100%;float:left;font-family: 'museo300';font-size:14px;color:#333;word-wrap:break-word;}
+
+/* Footer srart */
+footer{width:100%;float:left;background:#505050;padding:27px 0 0 0;}
+footer .footer{width:98.95%;max-width:940px;margin:0 auto;position:relative;padding:0 5px 0 5px;}
+footer .footer .nav{width:100%;float:left;}
+footer .footer .nav ul{width:100%;float:left;}
+footer .footer .nav ul li{width:auto;float:left;margin:0 2.84% 3px 0;}
+footer .footer .nav ul li:last-child{margin:0;}
+footer .footer .nav ul li a{width:auto;float:left;color:#fff;font-family: 'museo300';font-size:14px;text-decoration:none;}
+footer .footer .nav ul li a:hover{text-decoration:underline;}
+
+footer .footer .contact-info{width:100%;float:left;margin:28px 0 0 0;}
+footer .footer .contact-info .address{width:290px;float:left;}
+footer .footer .contact-info .address h3{width:100%;float:left;font-family: 'museo300';font-size:23px;color:#fff;margin-bottom:-5px;}
+footer .footer .contact-info .address p{width:100%;float:left;font-family: 'museo300';font-size:14px;color:#fff;word-wrap:break-word;}
+
+footer .footer .contact-info .telephone{width:180px;float:left;}
+footer .footer .contact-info .telephone p{width:100%;float:left;font-family: 'museo300';font-size:14px;color:#fff;margin:43px 0 0 0;word-wrap:break-word;} 
+   
+.icon-social-media{width:38.84%;float:right;margin:0;} 
+.icon-social-media ul{width:110px;float:right;margin:3px -10px 0 0;list-style-type:none;padding:0;}
+.icon-social-media ul li{width:auto;float:left;margin:7px 0 20px 0;}
+.icon-social-media ul li .btn-facebook{width:36px;float:left;background:url(../images/social/btn-email.png) 0 0 no-repeat;margin:0;height:36px;}
+.icon-social-media ul li .btn-facebook:hover{background:url(../images/social/btn-email.png) top right no-repeat;}
+.icon-social-media ul li .btn-linked-in{width:35px;float:left;background:url(../images/social/btn-linked-in.png) 0 0 no-repeat;margin:0 0 0 15px;height:36px;display:none;}
+.icon-social-media ul li .btn-linked-in:hover{background:url(../images/social/btn-linked-in.png) top right no-repeat;} 
+.icon-social-media ul li .btn-twitter{width:43px;float:left;background:url(../images/social/btn-twitter.png) 0 0 no-repeat;margin:2px 0 0 15px;height:34px;}
+.icon-social-media ul li .btn-twitter:hover{background:url(../images/social/btn-twitter.png) top right no-repeat;}
+.icon-social-media p{width:100%;float:left;font-family: 'museo300';font-size:14px;color:#fff;margin:-5px 0 0 0;word-wrap:break-word;text-align:right;}
+/* End srart */
+
+
+.web{display:block;}
+.mobile{display:none;}
+
+
+@media only screen and (min-width:769px) and (max-width:900px){
+      
+/* Home srart */
+section .main-heading{padding:15px 2% 10px 2%;margin:2.5% 0 0 0;}
+section .main-heading .inner h1{font-size:50px;line-height:50px;}
+section .main-heading .inner h1 small{width:100%;float:left; font-size:45px;letter-spacing:2px;padding:0;margin:0;} 
+/* End srart */
+
+/* our work */
+.our-work ul li .hover h3{font-size:30px;padding:13px 0 0 3%;line-height:30px}
+
+}
+@media only screen and (min-width:561px) and (max-width:768px)
+{
+    /* Header srart */
+header .header .logo{width:37%;float:left;margin:30px 0 0 10px;}  
+header nav ul li a{font-size: 14px;padding: 15px 0  15px 0; }
+
+.right-menu{width:325px;float:right;margin:6px 10px 0 0;}
+.main-nav{width:325px;float:left;}
+.main-nav nav{margin:6px 0 0 0;}
+.main-nav nav ul li{margin:0 12px 0 0;font-size:13px;}
+ 
+.btn-say-hello{width:78px;background:url(../images/bg.jpg) repeat-x;height:27px;font-size:14px;padding:4px 0 0 0;}
+.btn-say-hello:hover{color:#ECE7F5;}
+ 
+.info-cr{padding:25px 0 0 0;}
+.info-cr span{padding:0 15px 0 0;}
+.info-cr a{font-size:14px;} 
+     
+.bread-crumb{padding:5px 2% 5px 2%;}
+.bread-crumb ul li{font-size:13px;}
+
+section .main-heading{padding:15px 2% 10px 2%;margin:2.5% 0 0 0;}
+section .main-heading .inner h1{font-size:50px;line-height:50px;}
+section .main-heading .inner h1 small{width:100%;float:left; font-size:50px;letter-spacing:2px;padding:0;margin:0;}
+
+section .home-grids ul{margin:5% 0 0 0;}
+
+section #grid-box{width:98%;margin:0;padding:0 2% 0 2%}
+section #grid-box .grid-box{width:97.4%;float:left;padding:25px 0 0 0; }
+section #grid-box .grid-box h2{font-size:25px;line-height:25px;}
+section #grid-box .grid-box .grid-block{width:31%;margin:17px 3% 0 0;}
+section #grid-box .grid-box .grid-info{width:77%;float:right;}
+section #grid-box .grid-box .grid-info h3{font-size:17px;line-height:2px;}
+section #grid-box .grid-box .grid-info p{font-size:14px;line-height:16px;}
+
+.icon-social-media{width:44%;float:left;margin:15px 0 0 0;} 
+.icon-social-media ul{width:150px;float:left;margin:0 5px 0 0;list-style-type:none;padding:0;}
+
+/* About us */
+section .content{width:98.8%;margin:25px 0 0 0 ;float:left;padding:0 0 0 1.2%}
+section .content .left-menu ul li a{font-size:16px;padding:10px 0 10px 5%;line-height:20px;}
+
+section .column-right{margin:-4px 0 0 0;}
+section .column-right.consultancy{width:98%;float:left;padding-right:2%;}
+section .column-right.consultancy h1{width:100%;padding-left:0;}
+section .column-right h1{font-size:40px;padding:0 0 0 2%;line-height:40px;}
+section .column-right .right-info{width:95%; padding:12px 2.5% 0 2.5%; background:#fff;margin:20px 0 0 0;}
+section .column-right .right-info h3{font-size:22px; line-height:23px;margin:0 0 13px 0;}
+section .column-right .right-info h4{line-height:19px;font-size:18px;margin:0 0 13px 0;}
+section .column-right .right-info p{line-height:20px;font-size:15px;margin:0 0 17px 0;}
+
+section .column-right .right-info .img{width:100%;margin-bottom:25px;} 
+
+/* clients */
+.clients h1{font-size:40px;padding:10px 0 25px 2%;line-height:35px;}
+.clients ul li{margin: 0 3.68% 17px 0;} 
+
+/* our work */
+.our-work h1{font-size:40px;padding:10px 0 25px 2%;line-height:35px;} 
+.our-work ul li{margin:18px 2.32% 0 0;} 
+.our-work ul li .hover h3{font-size:25px;padding:11px 0 0 3%;line-height:25px}
+
+/* meet us */ 
+section .content .form {width:98%;padding-right:2%;}
+section .content .form .form-fields li{margin:0 0 13px 0}
+section .content .form .form-fields li h3{font-size:13px;margin-top:8px;}
+section .content .form .form-fields li input[type="text"]{font-size:13px;height:23px;}
+section .content .form .form-fields li textarea{font-size:13px;}
+ 
+.btn-send{width:70px;height:25px;font-size:15px;margin:15px 0 0 -9px;}
+
+section .content .right-column{width:100%;float:left;}
+section .content .right-column .address h3{width:100%;float:left;font-family: 'museo300';font-size:23px;color:#333;margin-bottom:-5px;}
+section .content .right-column .address p{width:100%;float:left;font-family: 'museo300';font-size:14px;color:#333;word-wrap:break-word;}
+
+
+}
+@media only screen and (min-width:631px) and (max-width:690px){
+      
+section .main-heading{padding:15px 2% 10px 2%;margin:2% 0 0 0;}
+section .main-heading .inner h1{font-size:40px;line-height:40px;}
+section .main-heading .inner h1 small{width:100%;float:left; font-size:35px;letter-spacing:2px;padding:0;margin:0;} 
+}
+@media only screen and (min-width:561px) and (max-width:630px){
+      
+section .main-heading{padding:10px 2% 10px 2%;margin:2% 0 0 0;}
+section .main-heading .inner h1{font-size:30px;line-height:30px;}
+section .main-heading .inner h1 small{width:100%;float:left; font-size:25px;letter-spacing:2px;padding:0;margin:0;} 
+}
+@media only screen and (min-width:320px) and (max-width:560px)
+{
+    /* Header srart */
+.btn-menu{width:40px;float:right; background:url(../images/menu.png) no-repeat;height:41px;z-index:99999;position:relative;margin:25px 10px 0 0;}
+    
+.web{display:none;}
+.mobile{display:block;}
+
+.flexslider .slides > li img{width:100%;float:left; display:block;height:300px;}  
+header .header .logo{width:210px;float:left;margin:30px 0 0 10px;position:relative;z-index:999;} 
+
+.right-menu{width:100%;float:left;margin:20px 10px 0 0;}
+.main-nav{width:300px;float:left;}
+.main-nav nav{margin:6px 0 0 0;}
+.main-nav nav ul li{margin:0 12px 0 0;font-size:12px;}
+ 
+.btn-say-hello{width:65px;background:url(../images/bg.jpg) repeat-x;height:25px;font-size:13px;padding:5px 0 0 0;}
+.btn-say-hello:hover{color:#ECE7F5;}
+ 
+.info-cr{padding:10px 0 0 0;float:left;}
+.info-cr span{padding:0 15px 0 0;}
+.info-cr a{font-size:14px;}
+ 
+header{position:relative;background:#505050;padding-bottom:23px;}
+header.bg-none{background:#505050;} 
+header nav#mobile{position:absolute;z-index:9999;top:73%;} 
+
+
+header nav{width:100%;float:left;background:#eac100;position:relative;margin:10px 0 0 0;}
+header nav ul{width:100%; max-width:950px;margin:0 auto;position:relative;list-style-type:none;padding:0;float:left;}
+header nav ul li{width:100%;float:left;border-right:0;padding:0;border-top:solid 1px #fff;position:relative;margin:0px;}
+header nav ul li:first-child{width:100%;border-left:0;}
+header nav ul li a{font-family: 'museo300';  color: #fff;display: block;font-size: 14px;padding: 10px 0  10px 0; text-align: center;
+                   transition: background-color 300ms ease-in-out 0s;width:100%;}
+header nav ul li a:hover, header nav ul li a.active{background:#804000;color:#fff;}
+
+header nav ul li ul{width:95%;position:absolute;list-style-type:none;z-index:999;top:99%;}
+header nav ul li ul li{width:100%;float:left;}
+header nav ul li ul li a{background: #804000;padding: 5px 5%;font-size:14px;border:0;} 
+  
+header nav ul li.home{width: 100%;}
+header nav ul li.websites{width:100%;}
+header nav ul li.mobile-apps{width:100%;}
+header nav ul li.seo{width:100%;}
+header nav ul li.branding{width:100%;}
+header nav ul li.our-work{width:100%;}
+
+.bread-crumb{padding:5px 2% 5px 2%;margin-top:20px;}
+.bread-crumb ul li{font-size:12px;}
+
+section{padding-bottom:15px;}
+section .main-heading{padding:15px 2% 15px 2%;margin:0% 0 0 0;background:#943EBD;}
+section .main-heading .inner h1{font-size:25px;line-height:25px;}
+section .main-heading .inner h1 small{font-size:20px;}   
+ 
+section .home-grids ul{width:97.5%;padding:0 0.5% 0 2%;margin:5% 0 0 0;}
+section .home-grids ul li{width:31.78%;float:left;margin:0 1.5% 1.5% 0;position:relative;}
+section .home-grids ul li:last-child{margin:0;} 
+section .home-grids ul li a{font-size:16px;line-height:17px;}
+
+section .guide-inner .inner{width:100%;margin:30px 1.82% 0 0;}
+section .guide-inner .inner:last-child{margin:40px 0 0 0;}   
+section .guide-inner .inner div.right span{font-size:16px;padding: 15px 0 0 0;line-height:20px;} 
+section .guide-inner .inner div.right a{width:80px;font-size:13px;padding:4px 0 3px 0;}
+
+section #grid-box{width:98%;margin:0;padding:0 2% 0 2%}
+section #grid-box .grid-box{width:100%;float:left;padding:25px 0 0 0; }
+section #grid-box .grid-box h2{font-size:25px;line-height:25px;}
+section #grid-box .grid-box .grid-block{width:100%;margin:20px 0 0 0;}
+section #grid-box .grid-box .grid-info{width:77%;float:right;}
+section #grid-box .grid-box .grid-info h3{font-size:15px;line-height:17px;}
+section #grid-box .grid-box .grid-info p{font-size:13px;line-height:15px;margin-top:10px}
+
+/* About us */
+section .content{width:97.6%;margin:20px 0 0 0 ;float:left;padding:0 1.2% 0 1.2%}
+section .content .left-menu{width:100%;} 
+section .content .left-menu ul{width:100%;} 
+section .content .left-menu ul li a{font-size:14px;padding:10px 0 10px 5%;line-height:20px;} 
+section .column-right{margin:10px 0 0 0;width:99%;float:left;padding-left:1%;}
+section .column-right h1{font-size:30px;padding:0 0 0 2%;line-height:35px;}
+section .column-right .right-info{padding:10px 2.5% 0 2.5%;margin:15px 0 0 0;}
+section .column-right .right-info h3{font-size:20px; line-height:20px;margin:0 0 10px 0;}
+section .column-right .right-info h4{line-height:18px;font-size:16px;margin:0 0 10px 0;}
+section .column-right .right-info p{line-height:18px;font-size:14px;margin:0 0 14px 0;}
+
+section .column-right .right-info .img{width:100%;margin-bottom:15px;} 
+
+/* clients */
+.clients h1{font-size:32px;padding:5px 0 19px 2%;line-height:27px;}
+.clients ul li{margin: 0 3.68% 3px 0;} 
+
+/* our work */
+.our-work h1{font-size:32px;padding:5px 0 19px 2%;line-height:27px;}
+.our-work ul{width:98.5%;margin:0 0 30px 1.5%;}
+.our-work ul li{margin:14px 2.32% 0 0;width:47%;} 
+.our-work ul li:nth-child(odd){margin-right:3%;} 
+.our-work ul li.last{margin:14px 3% 0 0;} 
+.our-work ul li .hover h3{font-size:15px;padding:8px 0 0 3%;line-height:15px}
+.our-work ul li .hover a{font-size:12px;}
+
+/* meet us */  
+section .content .form{width:98%; }
+section .content .form .form-fields li{margin:0 0 10px 0}
+section .content .form .form-fields li h3{font-size:12px;margin-top:5px;}
+section .content .form .form-fields li input[type="text"]{font-size:12px;height:15px;}
+section .content .form .form-fields li textarea{font-size:12px;height:80px;}
+
+.btn-send{width:55px;height:22px;font-size:13px;margin:15px 0 0 -9px;}
+
+section .content .right-column {float:left;width:100%;} 
+section .content .right-column .address h3{font-size:20px;}
+section .content .right-column .address p{font-size:13px;}
+
+footer{padding:20px 0 17px 0}
+footer .footer .nav{width:98%;float:left;}
+footer .footer .nav ul{width:100%;}
+footer .footer .nav ul li{width:48%;margin:0 0 5px 0;}
+footer .footer .nav ul li a{font-size:12px;}
+
+footer .footer .contact-info .address{width:98%;float:left;margin:-15px 0 0 0;}
+footer .footer .contact-info .address h3{font-size:18px;}
+footer .footer .contact-info .address p{font-size:12px;}
+
+footer .footer .contact-info .telephone{width:100%;}
+footer .footer .contact-info .telephone p{font-size:12px;margin:17px 0 10px 0;} 
+
+.icon-social-media{width:100%;float:left;} 
+.icon-social-media ul{width:100%;float:left;}
+.icon-social-media p{font-size:12px;text-align:left;}
+    }
